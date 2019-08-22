@@ -4,7 +4,6 @@ add_definitions(-D_XOPEN_SOURCE=700)
 
 add_executable(cmhello
     cmhello.c
-    gopt.c
 )
 
 target_link_libraries(cmhello
