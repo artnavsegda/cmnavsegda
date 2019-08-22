@@ -11,7 +11,7 @@ add_executable(cmhello
 )
 
 target_link_libraries(cmhello
-    ${SMS_LIB}
+  ${HELLO_LIB}
     pthread)
 
 install(TARGETS cmhello
